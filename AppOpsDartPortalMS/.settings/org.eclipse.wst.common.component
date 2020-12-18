@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="AppOpsDartPortalMS-1.0-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="AppOpsDartPortalConfiguration-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/AppOpsDartPortalConfiguration/AppOpsDartPortalConfiguration">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="AppOpsDartPortalUtil-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/AppOpsDartPortalUtil/AppOpsDartPortalUtil">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="AppOpsDartPortalEntity-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/AppOpsDartPortalEntity/AppOpsDartPortalEntity">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="AppOpsDartPortalApi-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/AppOpsDartPortalApi/AppOpsDartPortalApi">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="AppOpsDartPortalService-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/AppOpsDartPortalService/AppOpsDartPortalService">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="AppOpsDartPortalDao-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/AppOpsDartPortalDao/AppOpsDartPortalDao">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="AppOpsDartPortalMS"/>
+        <property name="java-output-path" value="/AppOpsDartPortalMS/target/classes"/>
+    </wb-module>
+</project-modules>
